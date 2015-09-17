@@ -1,0 +1,31 @@
+/* THANKS */
+
+    Bootstrap,
+    by Mark Otto & Jacob Thornton
+    Twitter: @twbootstrap
+    URL: http://getbootstrap.com
+    Location: San Francisco, USA
+    
+    Contactform,
+    by Stephan Ploehn
+    Twitter: @HalloDorban
+    URL: http://dorban.org
+    Location: Berlin, Germany
+    
+    Kirby,
+    by Bastian Allgeier
+    Twitter: @bastianallgeier
+    URL: http://bastianallgeier.com
+    Location: Mannheim, Germany
+    
+
+/* SITE */
+
+    Standards: PHP, HTML5, CSS3
+    Doctype: HTML5
+    Language: English
+    Components: jQuery, Bootstrap
+    IDE: Brackets
+    
+    Powered by:
+    http://getkirby.com

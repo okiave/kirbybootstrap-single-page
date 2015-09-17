@@ -1,0 +1,15 @@
+Title: Error
+
+----
+
+Titelsuffix: 
+
+----
+
+Text:
+
+The page has not been found.
+
+----
+
+Description: 

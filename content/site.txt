@@ -1,0 +1,17 @@
+Title: Kirby-Bootstrap-Starterkit
+
+----
+
+Titelsuffix: 
+
+----
+
+Author: NECKRHINOS
+
+----
+
+Description: 
+
+----
+
+Footer: Copyright (date: Year)
