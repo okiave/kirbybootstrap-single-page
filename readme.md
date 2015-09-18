@@ -1,3 +1,15 @@
+# Notes
+
+As this repository includes submodules, it is necessary to clone it recursive:
+
+    git clone --recursive https://github.com/NECKRHINOS/kirby-bootstrap-starterkit.git
+
+Kudos to all good people mentioned in [humans.txt](https://github.com/NECKRHINOS/kirby-bootstrap-starterkit/blob/master/humans.txt)
+
+The following informations are from the original Kirby Starterkit: <https://github.com/getkirby/starterkit>
+
+****
+
 # Kirby
 
 Kirby is a file-based CMS.
