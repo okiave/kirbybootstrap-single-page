@@ -14,7 +14,9 @@ As this repository includes submodules, it is necessary to clone it recursive:
 - humans.txt
 - htaccess redirect non-www to www snippet
 - jQuery snippets for targeting specific classes
+- Kirby
 - Kirbytext documentation with tips
+- Navbar toogle animation styles
 
 Kudos to all good people mentioned in [humans.txt](https://github.com/NECKRHINOS/kirby-bootstrap-starterkit/blob/master/humans.txt)
 
