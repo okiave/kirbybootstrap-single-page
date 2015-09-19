@@ -4,6 +4,16 @@ As this repository includes submodules, it is necessary to clone it recursive:
 
     git clone --recursive https://github.com/NECKRHINOS/kirby-bootstrap-starterkit.git
 
+## Includes
+
+- Blueprints with enhanced SEO fields and links to Kirbytext documentation
+- Bootstrap
+- Contactform with honeypot
+- Columns Kirby plugin with Bootstrap adjustments
+- Favicons snippet
+- humans.txt
+- jQuery snippets for targeting specific classes
+
 Kudos to all good people mentioned in [humans.txt](https://github.com/NECKRHINOS/kirby-bootstrap-starterkit/blob/master/humans.txt)
 
 The following informations are from the original Kirby Starterkit: <https://github.com/getkirby/starterkit>
