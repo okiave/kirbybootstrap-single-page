@@ -9,6 +9,6 @@
 <link rel="icon" type="image/png" href="<?php echo url("assets/favicons/favicon-96x96.png") ?>" sizes="96x96">
 <link rel="icon" type="image/png" href="<?php echo url("assets/favicons/favicon-16x16.png") ?>" sizes="16x16">
 <link rel="manifest" href="<?php echo url("assets/favicons/manifest.json") ?>">
-<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileColor" content="#da532c">
 <meta name="msapplication-TileImage" content="<?php echo url("assets/favicons/mstile-144x144.png") ?>">
 <meta name="theme-color" content="#ffffff">

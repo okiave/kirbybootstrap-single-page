@@ -10,7 +10,7 @@ As this repository includes submodules, it is necessary to clone it recursive:
 - Bootstrap
 - Contactform with honeypot
 - Columns Kirby plugin with Bootstrap adjustments
-- Favicons snippet
+- Favicons snippet and demo files
 - humans.txt
 - htaccess redirect non-www to www snippet
 - jQuery snippets for targeting specific classes
