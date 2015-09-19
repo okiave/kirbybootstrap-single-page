@@ -12,7 +12,9 @@ As this repository includes submodules, it is necessary to clone it recursive:
 - Columns Kirby plugin with Bootstrap adjustments
 - Favicons snippet
 - humans.txt
+- htaccess redirect non-www to www snippet
 - jQuery snippets for targeting specific classes
+- Kirbytext documentation with tips
 
 Kudos to all good people mentioned in [humans.txt](https://github.com/NECKRHINOS/kirby-bootstrap-starterkit/blob/master/humans.txt)
 
