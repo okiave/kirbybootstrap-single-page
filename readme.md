@@ -7,18 +7,21 @@ As this repository includes submodules, it is necessary to clone it recursive:
 ## Includes
 
 - Blueprints with enhanced SEO fields and links to Kirbytext documentation
-- Bootstrap
+- Bootstrap v3.3.5
 - Contactform with honeypot
 - Columns Kirby plugin with Bootstrap adjustments
 - Favicons snippet and demo files
 - humans.txt
 - htaccess redirect non-www to www snippet
+- jQuery v1.11.3
 - jQuery snippets for targeting specific classes
 - Kirby
 - Kirbytext documentation with tips
 - Navbar toogle animation styles
 
 Kudos to all good people mentioned in [humans.txt](https://github.com/NECKRHINOS/kirby-bootstrap-starterkit/blob/master/humans.txt)
+
+Favicons via <http://realfavicongenerator.net>
 
 The following informations are from the original Kirby Starterkit: <https://github.com/getkirby/starterkit>
 
