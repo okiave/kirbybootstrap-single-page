@@ -4,8 +4,6 @@
                 </div>
             </footer>
         </div> <!-- .container -->
-        <?php echo js('assets/js/vendor/jquery.min.js') ?>
-        <?php echo js('assets/js/vendor/bootstrap.min.js') ?>
-        <?php echo js('assets/js/script.js') ?>
+        <?php echo js('assets/js/script.min.js') ?>
     </body>
 </html>

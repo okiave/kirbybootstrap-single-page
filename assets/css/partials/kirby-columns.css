@@ -1,0 +1,35 @@
+.columns {
+    margin: 20px -15px;
+    min-height: 1px;
+    position: relative;
+}
+
+.columns:after {
+    clear: left;
+    content: '';
+    display: table;
+}
+
+.column {
+    float: left;
+    padding: 0 15px;
+}
+
+.columns-1 .column, .columns-2 .column, .columns-3 .column, .columns-4 .column {
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    .columns-1 .column {
+        width: 100%;
+    }
+    .columns-2 .column {
+        width: 50%;
+    }
+    .columns-3 .column {
+        width: 33.33333333%;
+    }
+    .columns-4 .column {
+        width: 25%;
+    }
+}

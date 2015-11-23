@@ -1,0 +1,27 @@
+{
+    "name": "kirby-bootstrap-starterkit",
+    "version": "0.1.0",
+    "description": "Personal Kirby 2 starterkit including Bootstrap 3 and a bit of other useful code",
+    "author": "Hendrik Berends <mail@hennirocks.de> (http://hennirocks.de)",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/NECKRHINOS/kirby-bootstrap-starterkit"
+    },
+    "bugs": {
+        "url": "https://github.com/NECKRHINOS/kirby-bootstrap-starterkit/issues"
+    },
+    "keywords": [
+        "kirby",
+        "bootstrap",
+        "starterkit",
+        "bower"
+    ],
+    "devDependencies": {
+        "grunt": "~0.4.5",
+        "grunt-contrib-jshint": "~0.11.3",
+        "grunt-contrib-nodeunit": "~0.4.1",
+        "grunt-contrib-cssmin": "~0.14.0",
+        "grunt-contrib-watch": "~0.6.1",
+        "grunt-contrib-uglify": "~0.10.1"
+    }
+}

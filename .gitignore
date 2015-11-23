@@ -1,6 +1,10 @@
-/bower_components
-/node_modules
-
 .DS_Store
 .git
+.grunt
 .Icon
+
+/bower_components/*
+/node_modules/*
+
+/site/accounts/.*
+/site/accounts/*.php

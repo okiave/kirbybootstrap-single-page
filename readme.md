@@ -1,21 +1,16 @@
-# Notes
-
-As this repository includes submodules, it is necessary to clone it recursive:
-
-    git clone --recursive https://github.com/NECKRHINOS/kirby-bootstrap-starterkit.git
-
-## Includes
+# Kirby-Bootstrap-Starterkit
 
 - Blueprints with enhanced SEO fields and links to Kirbytext documentation
-- Bootstrap v3.3.5
+- Bootstrap via Bower
 - Contactform with honeypot
 - Columns Kirby plugin with Bootstrap adjustments
 - Favicons snippet and demo files
+- Grunt minification tasks
 - humans.txt
 - htaccess redirect non-www to www snippet
-- jQuery v1.11.3
+- jQuery via Bower
 - jQuery snippets for targeting specific classes
-- Kirby
+- Kirby as submodules
 - Kirbytext documentation with tips
 - Navbar toogle animation styles
 
@@ -23,86 +18,45 @@ Kudos to all good people mentioned in [humans.txt](https://github.com/NECKRHINOS
 
 Favicons via <http://realfavicongenerator.net>
 
-The following informations are from the original Kirby Starterkit: <https://github.com/getkirby/starterkit>
+## Requirements
 
-****
-
-# Kirby
-
-Kirby is a file-based CMS.
-Easy to setup. Easy to use. Flexible as hell.
-
-## Trial
-
-You can try Kirby on your local machine or on a test
-server as long as you need to make sure it is the right
-tool for your next project.
-
-## Buy a license
-
-You can purchase your Kirby license at
-<http://getkirby.com/buy>
-
-A Kirby license is valid for a single domain. You can find
-Kirby's license agreement here: <http://getkirby.com/license>
-
-## The Starterkit
-
-Kirby's Starterkit comes with a small demo website and a fully
-configured panel. Feel free to modify it and play with it as
-much as you like.
-
-## The Panel
-
-You can find the login for Kirby's admin interface at
-http://yourdomain.com/panel. You will be guided through the signup
-process for your first user, when you visit the panel
-for the first time.
+- bower
+- git
+- npm
 
 ## Installation
 
-Kirby does not require a database, which makes it very easy to
-install. Just copy Kirby's files to your server and visit the
-URL for your website in the browser.
+Execute the following steps in your console at the location where you want the repository to be.
 
-**Please check if the invisible .htaccess file has been
-copied to your server correctly**
+Clone this repository **recursively**, as it includes Kirby as submodules:
 
-### Requirements
+    $ git clone --recursive https://github.com/NECKRHINOS/kirby-bootstrap-starterkit.git
 
-Kirby runs on PHP 5.3+, Apache or Nginx.
+Install all the components from the bower and package .json files provided in this repository:
 
-### Download
+    $ bower install
 
-You can download the latest version of the Starterkit
-from http://download.getkirby.com
+    $ npm install
 
-### With Git
+This will get you Bootstrap, jQuery and the necessary components for working with Grunt.
 
-If you are familiar with Git, you can clone Kirby's
-Starterkit repository from Github.
+## Done
 
-    git clone --recursive https://github.com/getkirby/starterkit.git
+Start working by creating and modifying .css and .js files in the **partial folders** and make sure you are running Grunt.
 
-## Documentation
-<http://getkirby.com/docs>
+    $ grunt
 
-## Issues and feedback
+## Updates
 
-If you have a Github account, please report issues
-directly on Github:
+Updating Kirby:
 
-- <https://github.com/getkirby/kirby/issues>
-- <https://github.com/getkirby/panel/issues>
-- <https://github.com/getkirby/starterkit/issues>
+    $ git submodule foreach --recursive git checkout master
+    $ git submodule foreach --recursive git pull
 
-Otherwise you can use Kirby's forum: http://getkirby.com/forum
-or send us an email: <support@getkirby.com>
+Updating Bootstrap and jQuery:
 
-## Support
-<http://getkirby.com/support>
+    $ bower update --save
 
-## Copyright
+Updating Grunt components:
 
-© 2009-2014 Bastian Allgeier (Bastian Allgeier GmbH)
-<http://getkirby.com>
+    $ npm update --save

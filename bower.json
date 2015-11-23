@@ -1,0 +1,28 @@
+{
+  "name": "kirby-bootstrap-starterkit",
+  "description": "Personal Kirby 2 starterkit including Bootstrap 3 and a bit of other useful code",
+  "main": "",
+  "authors": [
+    "Hendrik Berends <mail@hennirocks.de> (http://hennirocks.de)"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "kirby",
+    "bootstrap",
+    "starterkit",
+    "bower"
+  ],
+  "homepage": "https://github.com/NECKRHINOS/kirby-bootstrap-starterkit",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.5",
+    "jquery": "~2.1.4"
+  }
+}

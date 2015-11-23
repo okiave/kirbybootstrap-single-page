@@ -1,31 +1,42 @@
+/* TEAM */
+
+    YOUR NAME
+    Twitter: YOUR TWITTER USERNAME
+    URL: YOUR WEBSITE
+    Location: YOUR LOCATION
+
+    Kirby-Bootstrap-Starterkit: Hendrik Berends
+    Twitter: @hennirocks
+    URL: http://hennirocks.de
+    Location: Berlin, Germany
+
+
 /* THANKS */
 
-    Bootstrap,
-    by Mark Otto & Jacob Thornton
+    Bootstrap: Mark Otto, Jacob Thornton et al.
     Twitter: @twbootstrap
     URL: http://getbootstrap.com
     Location: San Francisco, USA
-    
-    Contactform,
-    by Stephan Ploehn
+
+    Contact form: Stephan Ploehn
     Twitter: @HalloDorban
     URL: http://dorban.org
     Location: Berlin, Germany
-    
-    Kirby,
-    by Bastian Allgeier
+
+    Kirby: Bastian Allgeier
     Twitter: @bastianallgeier
     URL: http://bastianallgeier.com
     Location: Mannheim, Germany
-    
+
 
 /* SITE */
 
+    Last update: 2015/11/23
     Standards: PHP, HTML5, CSS3
     Doctype: HTML5
     Language: English
     Components: jQuery, Bootstrap
-    IDE: Brackets
-    
+    IDE: Atom
+
     Powered by:
     http://getkirby.com
