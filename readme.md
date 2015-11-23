@@ -30,13 +30,13 @@ Execute the following steps in your console at the location where you want the r
 
 Clone this repository **recursively**, as it includes Kirby as submodules:
 
-    $ git clone --recursive https://github.com/NECKRHINOS/kirby-bootstrap-starterkit.git
+    git clone --recursive https://github.com/NECKRHINOS/kirby-bootstrap-starterkit.git
 
 Install all the components from the bower and package .json files provided in this repository:
 
-    $ bower install
+    bower install
 
-    $ npm install
+    npm install
 
 This will get you Bootstrap, jQuery and the necessary components for working with Grunt.
 
@@ -44,19 +44,25 @@ This will get you Bootstrap, jQuery and the necessary components for working wit
 
 Start working by creating and modifying .css and .js files in the **partial folders** and make sure you are running Grunt.
 
-    $ grunt
+    grunt
 
 ## Updates
 
 Updating Kirby:
 
-    $ git submodule foreach --recursive git checkout master
-    $ git submodule foreach --recursive git pull
+    git submodule foreach --recursive git checkout master
+    git submodule foreach --recursive git pull
 
 Updating Bootstrap and jQuery:
 
-    $ bower update --save
+    bower update --save
 
 Updating Grunt components:
 
-    $ npm update --save
+    npm update --save
+
+## Buy a Kirby license
+
+Don't forget: Kirby's not for free. Please support Bastian's work by buying a license when going live with a site.
+
+http://getkirby.com/buy
