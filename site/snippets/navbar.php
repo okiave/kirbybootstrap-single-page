@@ -7,17 +7,17 @@
                 <span class="icon-bar middle-bar"></span>
                 <span class="icon-bar bottom-bar"></span>
             </button>
-            <a class="navbar-brand visible-xs" data-toggle="collapse" data-target="#navbar"><?= $site->title()->html() ?></a>
+            <a class="navbar-brand visible-xs" data-toggle="collapse" data-target="#navbar"><?php echo $site->title()->html() ?></a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav nav-justified">
-                <? foreach($pages->visible() as $p): ?>
-                    <li <? e($p->isOpen(), ' class="active"') ?>>
-                        <a href="<?= $p->url() ?>">
-                            <?= $p->title()->html() ?>
+                <?php foreach($pages->visible() as $p): ?>
+                    <li <?php e($p->isOpen(), ' class="active"') ?>>
+                        <a href="<?php echo $p->url() ?>">
+                            <?php echo $p->title()->html() ?>
                         </a>
                     </li>
-                <? endforeach ?>
+                <?php endforeach ?>
             </ul>
         </div>
     </div>

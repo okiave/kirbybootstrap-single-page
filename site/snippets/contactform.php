@@ -1,4 +1,4 @@
-<?
+<?php
 
 	$ctimestamp = get('ctimestamp') + 6;
 	$timestamp = time();
@@ -72,21 +72,21 @@
         <div class="form-group">
             <input class="hidden" type="text" name="username" value="">
             <input class="hidden" type="text" name="text" value="">
-            <input class="hidden" type="hidden" name="ctimestamp" value="<?= time() ?>">
+            <input class="hidden" type="hidden" name="ctimestamp" value="<?php echo time() ?>">
             <input name="submit" type="hidden" value="true">
             <button type="submit" class="btn btn-default btn-lg">Submit</button>
         </div>
     </fieldset>
 </form>
 
-<? if(kirby()->request()->params()->message()): ?>
-    <? if(kirby()->request()->params()->message() == 'sent'): ?>
+<?php if(kirby()->request()->params()->message()): ?>
+    <?php if(kirby()->request()->params()->message() == 'sent'): ?>
         <div class="alert alert-success">
             Your message was sent successfully.
         </div>
-        <? else: ?>
+        <?php else: ?>
             <div class="alert alert-danger">
                 Your message could not be sent.
             </div>
-    <? endif ?>
-<? endif ?>
+    <?php endif ?>
+<?php endif ?>
