@@ -18,6 +18,10 @@ Kudos to all good people mentioned in [humans.txt](https://github.com/NECKRHINOS
 
 Favicons via <http://realfavicongenerator.net>
 
+## About
+
+This is my personal starterkit when working on website projects that are made with Kirby and Bootstrap.
+
 ## Requirements
 
 - bower
