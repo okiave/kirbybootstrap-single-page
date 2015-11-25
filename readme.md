@@ -36,13 +36,9 @@ Clone this repository **recursively**, as it includes Kirby as submodules:
 
     git clone --recursive https://github.com/NECKRHINOS/kirby-bootstrap-starterkit.git
 
-Install all the components from the bower and package .json files provided in this repository:
+Install npm and bower. This will get you everything provided with the .json files, including Bootstrap and jQuery:
 
-    bower install
-
-    npm install
-
-This will get you Bootstrap, jQuery and the necessary components for working with Grunt.
+    npm install && bower install
 
 ## Done
 
