@@ -13,6 +13,7 @@
 - Kirby as submodules
 - Kirbytext documentation with tips
 - Navbar toogle animation styles
+- Sass
 
 Kudos to all good people mentioned in [humans.txt](https://github.com/NECKRHINOS/kirby-bootstrap-starterkit/blob/master/humans.txt)
 
@@ -42,7 +43,7 @@ Install npm and bower. This will get you everything provided with the .json file
 
 ## Done
 
-Start working by creating and modifying .css and .js files in the **partial folders** and make sure you are running Grunt.
+Start working by creating and modifying .scss files in **assets/sass/base**, **assets/sass/mixins** and **assets/sass/partials**. Don't forget to include new files in main.scss. For Javascript, work in **assets/js/partials**. Make sure you are running Grunt.
 
     grunt
 
@@ -66,3 +67,7 @@ Updating Grunt components:
 Don't forget: Kirby's not for free. Please support Bastian's work by buying a license when going live with a site.
 
 http://getkirby.com/buy
+
+## Also don't forget
+
+Also don't forget to configure your own remote origin in your Git .config file.

@@ -1,0 +1,29 @@
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: $color-base;
+    @include transition;
+    width: 22px;
+}
+
+.navbar-toggle .top-bar {
+    @include rotate(45deg);
+    @include origin(10% 10%);
+}
+
+.navbar-toggle .middle-bar {
+    opacity: 0;
+}
+
+.navbar-toggle .bottom-bar {
+    @include rotate(-45deg);
+    @include origin(10% 90%);
+}
+
+.navbar-toggle.collapsed .top-bar,
+.navbar-toggle.collapsed .bottom-bar {
+    @include rotate(0);
+}
+
+.navbar-toggle.collapsed .middle-bar {
+    opacity: 1;
+}
